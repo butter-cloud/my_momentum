@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'GangwonEduHyeonokT_OTFMediumA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduHyeonokT_OTFMediumA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    font-size: 20px;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 80%;
+    object-fit: cover;
+}
+
+body {
+    padding-top: 120px;
+}
+
+* {
+    color: white;
+    text-align: center;
+}
+
+#login-form {
+    font-size: 50px;
+    font-family: serif;
+}
+
+#login-form input{
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1px 10px;
+}
+
+#login-form button {
+    color: #556447;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 1px 10px;
+}
+
+#clock {
+    font-family: serif;
+    font-size: 170px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
+
+#greeting {
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    margin: 10px 10px;
+}
+
+#todo-form {
+    font-family: serif;
+    margin: 10px;
+    width: fit-content;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#todo-form input[type="text"] {
+    font-family: 'SF_HambakSnow';
+    font-size: 15px;
+    color: black;
+    width: 300px;
+    margin: 10px 10px;
+}
+
+#todo-list {
+    font-size: 15px;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    height: 140px;
+    margin-top: 10px;
+    overflow: hidden;
+    overflow-y : auto;
+    font-family: 'SF_HambakSnow';
+}
+
+#todo-list li {
+    list-style: "🧴 ";
+    list-style-position: outside;
+}
+
+#todo-list button {
+    border: none;
+    padding: 2px 5px;
+    margin: 0 10px;
+    background-color: transparent;
+    font-size: large;
+}
+
+#quote {
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    margin-top: 30px;
+}
+
+#weather {
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
